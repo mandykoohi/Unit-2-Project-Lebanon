@@ -1,0 +1,27 @@
+Import Lebanon data from ACLED into SQL
+
+RENAME TABLE `TABLE 3` TO `Lebanon`
+
+SELECT actor1, COUNT(actor1) FROM Lebanon GROUP BY actor1
+
+Results: 
+actor1    COUNT(actor1)    
+Military Forces of Lebanon (2014-2016)    1
+Police Forces of Lebanon (2016-)    2
+Private Security Forces (Lebanon)    1
+Protesters (International)    2
+Protesters (Iraq)    1
+Protesters (Jordan)    1
+Protesters (Lebanon)    265
+Protesters (Palestine)    49
+Protesters (Syria)    1
+Rioters (Lebanon)    58
+Rioters (Palestine)    3
+UNIFIL: United Nations Interim Force in Lebanon (1978-)    2
+
+Violent acts by Lebanese:    323
+Violent acts by Palestinians:    52
+
+Hypothesis: Riots and protests by the Lebanese people will be higher than those by the Palestinian people. Many Palestinians are in Lebanon as refugees or immigrants from other parts of the region as results of ISIS and the Syrian Civil War. I hypothesize they are less likely to engage in acts of violence or protests against the state or any other entity in Lebanon to avoid drawing attention to themselves. 
+
+The data included in this unit project spans from Jan 2016-Present. This covers periods of time when the Syrian Civil War was in full fruition as was the rise of ISIS in the area. Violent acts by Lebanese far outweighed those done by Palestinians and the evidence supports my original hypothesis.  
